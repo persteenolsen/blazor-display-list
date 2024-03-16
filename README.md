@@ -1,4 +1,4 @@
-# dotnet-6-blazorapp-webassembly
+# blazorapp-webassembly-display-list
 
 Blazor App
 

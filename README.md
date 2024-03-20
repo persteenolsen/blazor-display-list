@@ -36,6 +36,15 @@ At my remote servers the web.config needs to be without the folowing:
 
 hostingModel="inprocess"
 
+# Some issues to handle
+
+_imports.razor seems not to take of the loading of the Razor files
+
+To solve that issue I have been loading the folders / files needed like in "app.razor":
+
+@using BlazorApp.Shared
+@using Microsoft.AspNetCore.Components.Routing
+
 # Usefull checklist for BlazorApp.csproj
 
 - Sdk=Microsoft.NET.Sdk.BlazorWebAssembly
